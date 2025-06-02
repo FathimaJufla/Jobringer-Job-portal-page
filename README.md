@@ -113,4 +113,4 @@ Fathima Jufla
 - LinkedIn: [Fathima Jufla](https://www.linkedin.com/in/fathima-jufla-48a160254)
 - GitHub: [fathimajufla](https://github.com/FathimaJufla)
 
-Project Link: [https://github.com/fathimajufla/jobringer](https://github.com/fathimajufla/jobringer) 
+Project Link: [https://github.com/FathimaJufla/Jobringer-Job-portal-page.git]
