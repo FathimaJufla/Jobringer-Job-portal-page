@@ -23,7 +23,7 @@
   <!-- Header -->
   <header class="bg-white shadow-sm">
     <div class="container mx-auto px-4">
-      <div class="flex justify-between items-center py-4">
+      <div class="flex justify-between items-center py-2">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShibTd7GJe3pEurVidD-vCkLboUVPhWYH9WA&s" alt="Logo" class="h-16">
         <div class="hidden md:flex items-center gap-7">
             <a href="#" class="text-gray-600 hover:text-blue-600 transition text-[14px]">Jobs</a>
@@ -372,7 +372,7 @@
       </div>
 
 
-      <!-- Pagination -->
+      <!-- Pages -->
       <div class="flex justify-center mt-8 gap-2">
         <button class="px-4 py-2 rounded-xl bg-blue-600 text-white font-semibold">1</button>
         <button class="px-4 py-2 rounded-xl hover:bg-blue-50 text-gray-600">2</button>
@@ -484,12 +484,31 @@
               </svg>
             </a>
           </div>
+          <div class="items-center justify-center py-4">
+            <span class="text-[14px] font-normal mb-2 md:mb-0 md:mr-2">Recognized By</span>
+            <img src="data:image/png;base64,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" alt="Startup India" class="h-10 mt-0">
+           </div>
         </div>
       </div>
       <div class="border-t mt-8 pt-8 text-center text-gray-500 text-sm">
-        &copy; 2025 Jobtech Ventures Private Limited. All Rights Reserved.
+        <div class="flex flex-wrap justify-center gap-x-2 mb-3 text-sm">
+          <a href="#" class="hover:text-blue-600">Terms and conditions</a> |
+          <a href="#" class="hover:text-blue-600">Privacy Policy</a> |
+          <a href="#" class="hover:text-blue-600">Refund / Cancellation Policy</a> |
+          <a href="#" class="hover:text-blue-600">About Us</a> |
+          <a href="#" class="hover:text-blue-600">Contact Us</a> |
+          <a href="#" class="hover:text-blue-600">FAQ</a> |
+          <a href="#" class="hover:text-blue-600">Blogs</a>
+        </div>
+        <h3>© 2025 Jobtech Ventures Private Limited. All Rights Reserved.</h3>
       </div>
     </div>
   </footer>
+<a href="https://wa.me/919999999999" target="_blank" class="fixed bottom-4 right-4 z-50 bg-green-500 rounded-full shadow-lg p-4 md:p-4  hover:bg-green-600 transition">
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 md:h-8 md:w-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M20.52 3.48A12.07 12.07 0 0 0 12 0C5.37 0 0 5.37 0 12c0 2.11.55 4.16 1.6 5.97L0 24l6.26-1.64A11.94 11.94 0 0 0 12 24c6.63 0 12-5.37 12-12 0-3.21-1.25-6.23-3.48-8.52zM12 22c-1.85 0-3.68-.5-5.26-1.44l-.38-.22-3.72.98.99-3.62-.25-.37A9.94 9.94 0 0 1 2 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.2-7.8c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.44-2.25-1.4-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.13-.13.28-.34.42-.51.14-.17.18-.29.28-.48.09-.19.05-.36-.02-.5-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.62-.47-.16-.01-.36-.01-.56-.01-.19 0-.5.07-.76.34-.26.27-1 1-.98 2.43.02 1.43 1.03 2.81 1.18 3.01.15.2 2.03 3.1 4.93 4.23.69.28 1.23.45 1.65.58.69.22 1.32.19 1.81.12.55-.08 1.65-.67 1.88-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z"/>
+  </svg>
+</a>
 </body>
 </html>
