@@ -19,7 +19,6 @@ JobRinger is a modern job search platform built with HTML and Tailwind CSS, desi
 
 - HTML5
 - Tailwind CSS
-- Google Fonts (Inter)
 - Responsive Design
 - Modern UI/UX
 
@@ -108,8 +107,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Fathima Jufla
-- Email: fathimajufla@gmail.com
+Fathima Jufla M K
+- Email: tofathimas@gmail.com
 - LinkedIn: [Fathima Jufla](https://www.linkedin.com/in/fathima-jufla-48a160254)
 - GitHub: [fathimajufla](https://github.com/FathimaJufla)
 
